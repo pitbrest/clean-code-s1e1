@@ -81,7 +81,6 @@
 .text-input:focus {
   color: #333;
 }
-
 /* New Task */
 .add-item-label {
 	display: block;
@@ -90,7 +89,6 @@
 #add-item-input {
 	width: 318px;
 }
-
 /* Task list */
 .list-item {
 	overflow: hidden;
@@ -123,13 +121,11 @@
 .delete .delete-button-image:hover {
   transform: rotateZ(0);
 }
-
 /* Completed */
 .completed-tasks-label {
 	text-decoration: line-through;
 	color: #888;
 }
-
 /* Edit Task */
 .list-item .text-input {
 	display: none;
