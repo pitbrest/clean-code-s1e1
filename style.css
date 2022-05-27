@@ -1,11 +1,8 @@
-/* Basic Style */
 .body {
   background-color: #f8f8f8;
   color: #333;
   font-family: "Lato", sans-serif;
 }
-/***** Header *****/
-
 .header-content {
   width: 500px;
   margin: 0 auto;
@@ -18,7 +15,6 @@
 .header-content-info {
   font-family: fantasy, cursive;
 }
-
 @media (max-width: 768px) {
 	.header-content {
 		text-align: center;
@@ -46,7 +42,7 @@
   list-style: none;
 }
 .input,
-.button{
+.button {
   outline: none;
 }
 .button {
@@ -87,7 +83,6 @@
 .text-input:focus {
   color: #333;
 }
-
 /* New Task */
 .add-item-label {
 	display: block;
@@ -96,7 +91,6 @@
 #add-item-input {
 	width: 318px;
 }
-
 /* Task list */
 .list-item {
 	overflow: hidden;
@@ -109,7 +103,6 @@
 .list-item > * {
   vertical-align: middle;
 }
-
 .list-item > .input-checkbox {
   margin: 0 10px;
 }
@@ -130,23 +123,19 @@
 .delete .delete-button-image:hover {
   transform: rotateZ(0);
 }
-
 /* Completed */
 .completed-tasks-label {
 	text-decoration: line-through;
 	color: #888;
 }
-
 /* Edit Task */
 .list-item .text-input {
 	display: none;
 }
-
 .todo-list-edit .text-input {
 	display: inline-block;
 	width: 224px;
 }
-
 .todo-list-edit .label {
 	display: none;
 }
